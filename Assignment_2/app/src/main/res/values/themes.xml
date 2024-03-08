@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment_2" parent="@style/Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/ToolbarColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.AppBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:colorForeground">@color/black</item>
+    </style>
+
+    <style name="Theme.Assignment_2" parent="Base.Theme.Assignment_2" />
+</resources>
