@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculatorAssignment_3" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.CalculatorAssignment_3" parent="Base.Theme.CalculatorAssignment_3">
+        <item name="android:statusBarColor">@color/actionBarColor</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="ActionBar.Dark" parent="Base.Theme.CalculatorAssignment_3">
+        <item name="android:background">@color/actionBarColor</item>
+    </style>
+</resources>
