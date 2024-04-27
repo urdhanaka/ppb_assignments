@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DB</string>
+    <string name="name">Nama</string>
+    <string name="insertName">Masukkan nama...</string>
+    <string name="idNumber">NRP</string>
+    <string name="insertIdNumber">Masukkan NRP...</string>
+    <string name="search">Cari</string>
+    <string name="save">Simpan data</string>
+</resources>
