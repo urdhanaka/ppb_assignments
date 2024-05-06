@@ -2,28 +2,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_above="@+id/add_nama">
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_create_24"
-            android:id="@+id/edit" />
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_close_24"
-            android:id="@+id/del" />
-
-    </LinearLayout>
+    android:paddingLeft="35dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
 
     <LinearLayout
         android:id="@+id/add_nama"
@@ -40,8 +21,7 @@
         <EditText
             android:layout_width="700px"
             android:layout_height="wrap_content"
-            android:id="@+id/nm"
-            />
+            android:id="@+id/nm" />
 
     </LinearLayout>
 
@@ -63,6 +43,5 @@
             />
 
     </LinearLayout>
-
 
 </LinearLayout>
