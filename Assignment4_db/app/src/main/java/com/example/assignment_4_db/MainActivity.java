@@ -46,10 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
         dbku = Opendb.getWritableDatabase();
         dbku.execSQL("create table if not exists mhs(nrp TEXT, nama TEXT);");
-
-        // action bar
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
-        setSupportActionBar(myToolbar);
     }
 
     @Override
